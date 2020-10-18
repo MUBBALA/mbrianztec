@@ -307,7 +307,7 @@ vertical-align: middle;
 {
 position: relative;
 height: 160px;
-background: #fff url('images/hdr2pic.jpg') no-repeat top left;
+background: #000 url('images/hdr2pic.jpg') no-repeat top left;
 margin-bottom: 2px;
 }
 
