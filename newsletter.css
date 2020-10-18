@@ -1,0 +1,152 @@
+#primarycontent  .newsletter {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    padding: 0;
+    text-align: center;
+    margin: 10px auto;
+    border: 1px solid gray;
+    width: 400px;
+}
+#primarycontent .newsletter h4{
+   background-color: seagreen;
+   color: #fff;
+   margin-top: 1.0em;
+   text-transform: uppercase;
+   text-align: left;
+   padding: 5px 1em 5px;
+}
+#primarycontent .newsletter p{
+    text-align: left;
+    padding: 5px 2em;
+}
+
+/*FORM STYLES*/
+
+form{
+    margin: 0;
+    margin-top: -4px;
+    padding: 0;
+}
+form input[type="email"]{
+    padding: 5px;
+    border: 2px groove;
+    width: 250px;
+}
+
+form input[type="submit"]{
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid;
+    font-size: 1.1em;
+}
+
+/*SOCIAL-ICONS STYLES*/
+
+
+#primarycontent .newsletter ul{
+    list-style: none;
+}
+
+#primarycontent .newsletter .hide{
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#primarycontent .newsletter ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.twitter, .google_plus, .facebook {
+  background: url(images/sprite_48.png) no-repeat;
+  display:inline-block;
+  width: 48px;
+  height: 48px;
+}
+ 
+.google_plus {
+    background-position: -104px 0;
+}
+ 
+.facebook {
+    background-position: -50px 0;
+}
+
+@media screen and (max-width: 600px){
+    
+    #primarycontent  .newsletter{
+        width: auto;
+    }
+
+    #primarycontent .newsletter ul{
+        display: block;
+        width: auto;
+    }
+    
+    #primarycontent .newsletter .hide{
+    text-indent: -999999px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+    #primarycontent .newsletter ul li a{
+        display: inline-block;
+        border: none;
+        margin-right: 5px;
+        
+    }
+
+            .twitter, .google_plus, .facebook {
+        background: url(images/sprite_48.png) no-repeat;
+        display:inline-block;
+        width: 48px;
+        height: 48px;
+        margin: 10px 4px;
+        padding: 0;
+        
+        }
+    
+        .google_plus {
+        
+        background-position: -104px 0;
+        }
+        
+        .facebook {
+            background-position: -50px 0;
+           
+        }
+}
+
+@media screen and (max-width: 480px){
+   
+    
+form{
+    margin: 0;
+    margin-top: -4px;
+    padding: 0;
+}
+form input[type="email"]{
+    padding: 5px;
+    border: 2px groove;
+    width: auto;
+}
+
+form input[type="submit"]{
+    padding: 5px 5px;
+    background-color: red;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid;
+    font-size: 1.1em;
+}
+
+#primarycontent .newsletter p{
+    text-align: left;
+    padding: 5px 1.0em;
+    color: #333;
+}
+
+
+}
